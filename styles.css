@@ -1,0 +1,42 @@
+/* This is the styling file for the Landing Page */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+/* Header Styling and Structure */
+.Header,
+.Header-extra-box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+/* Hero Styling and Structure */
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-Text {
+    display: block;
+    max-width: 350px;
+    text-align: left;
+}
+
+.Hero-image {
+    display: flex;
+    height: 300px;
+    width: 350px;
+}
+
+button {
+    width: 100px;
+    height: auto;
+}
