@@ -40,3 +40,20 @@ button {
     width: 100px;
     height: auto;
 }
+
+/* Secondary Body Styling and Structure */
+.Secondary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.secondary-title {
+
+}
+
+.image-box {
+    max-width: 200px;
+}
+
