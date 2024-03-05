@@ -57,3 +57,18 @@ button {
     max-width: 200px;
 }
 
+/* Tertiary Body Styling and Structure */
+.Tertiary {
+    display: block;
+    max-width: 500px;
+    padding: 50px;
+    margin: auto;
+}
+
+.inspiration-quote {
+    text-align: left;
+}
+
+.quote-author {
+    text-align: right;
+}
