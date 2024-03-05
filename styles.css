@@ -72,3 +72,19 @@ button {
 .quote-author {
     text-align: right;
 }
+
+/* Quaternary Body Styling and Structure */
+.Quaternary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.Quaternary-text {
+    text-align: left;
+}
+
+#QP1 {
+    
+}
