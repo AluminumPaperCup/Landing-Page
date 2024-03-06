@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+img {
+    overflow-clip-margin: content-box;
+    width: 100px;
+    height: 100px;
+}
 
 
 /* Header Styling and Structure */
@@ -94,7 +99,13 @@ body {
 }
 
 .image-box {
+    display: block;
     max-width: 200px;
+    height: auto;
+}
+
+#image-p {
+    color: red;
 }
 
 /* Tertiary Body Styling and Structure */
