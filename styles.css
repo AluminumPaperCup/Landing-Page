@@ -12,7 +12,6 @@ img {
     height: 100px;
 }
 
-
 /* Header Styling and Structure */
 .Header,
 .Header-extra-box {
@@ -74,16 +73,14 @@ img {
 }
 
 #hero-sign {
-    margin: 5px;
-    padding: 5px;
-    border: 10px;
+    border: 2px solid #F9FAF8;
     border-radius: 15px 50px 30px 5px;
-    width: 100px;
-    height: auto;
-    font-size: 15px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    padding: 14px 28px;
+    font-size: 16px;
     font-weight: 800;
-    color: #F9FAF8;
-    background-color: #3882F6;
+    cursor: pointer;
 }
 
 /* Secondary Body Styling and Structure */
@@ -95,7 +92,9 @@ img {
 }
 
 .secondary-title {
-
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .image-box {
@@ -105,37 +104,62 @@ img {
 }
 
 #image-p {
-    color: red;
+    
 }
 
 /* Tertiary Body Styling and Structure */
 .Tertiary {
     display: block;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
+    padding: 200px;
+    background-color: #E5E7EB;
 }
 
 .inspiration-quote {
+    font-size: 36px;
+    font-weight: 300;
     text-align: left;
+    font-style: italic;
+    color: #656f80;
 }
 
 .quote-author {
+    font-size: 20px;
     text-align: right;
 }
 
 /* Quaternary Body Styling and Structure */
 .Quaternary {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 75px;
+    margin: 120px 300px 120px 300px;
+    padding: 40px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
 
 .Quaternary-text {
     text-align: left;
 }
 
+#QH1 {
+    font-size: 30px;
+    color: #F9FAF8;
+}
+
 #QP1 {
-    
+    font-size: 25px;
+    color: #F9FAF8;
+}
+
+#Quaternary-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 15px 50px 30px 5px;
+    background-color:#3882F6;
+    color:#F9FAF8;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
 }
